@@ -22,7 +22,10 @@ Client App:
 	groups.add("<enter_rolename>");
  in GenerateJoken
 
--Add @ClientHeaderParam(name="Authorization",value="{generateJWTToken}") and
+-Add 
+	
+	@ClientHeaderParam(name="Authorization",value="{generateJWTToken}")
+and
 
 -Add method in interface:
 
