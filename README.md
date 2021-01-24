@@ -18,8 +18,9 @@ Client App:
 -Change:
 
 	subject = "<enter_username>";
-		groups = new ArrayList<>();
-		groups.add("<enter_rolename>"); in GenerateJoken
+	groups = new ArrayList<>();
+	groups.add("<enter_rolename>");
+ in GenerateJoken
 
 -Add @ClientHeaderParam(name="Authorization",value="{generateJWTToken}") and
 
