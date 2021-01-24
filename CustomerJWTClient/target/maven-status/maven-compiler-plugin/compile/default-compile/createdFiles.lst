@@ -1,0 +1,9 @@
+com\mycompany\customerjwtclient\config\BootStrap.class
+com\mycompany\customerjwtservice\entity\CustomerMaster.class
+token\MPJWTToken.class
+com\mycompany\customerjwtclient\config\Producers.class
+com\mycompany\customerjwtclient\service\CustomerClient.class
+token\GenerateToken.class
+com\mycompany\customerjwtclient\config\CrossOriginResourceSharingFilter.class
+com\mycompany\customerjwtclient\service\HealthCheckService.class
+com\mycompany\customerjwtclient\servlet\CustomerServlet.class

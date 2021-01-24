@@ -1,0 +1,3 @@
+#!/bin/sh
+mvn clean package && docker build -t saurabhsali/CustomerJWTClient .
+docker rm -f CustomerJWTClient 2>/dev/null || true && docker run -it --name CustomerJWTClient -p 8080:8080 -p 4848:4848 -p 8181:8181 --name CustomerJWTClient saurabhsali/CustomerJWTClient
