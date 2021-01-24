@@ -4,9 +4,9 @@
 Client App:
 
 	<dependency>
-		 <groupId>io.vertx</groupId>
-		 <artifactId>vertx-auth-jwt</artifactId>
-	  <version>3.8.1</version>
+	 <groupId>io.vertx</groupId>
+	 <artifactId>vertx-auth-jwt</artifactId>
+	 <version>3.8.1</version>
 	</dependency>
 
 -Add this dependency in pom.xml at client application
